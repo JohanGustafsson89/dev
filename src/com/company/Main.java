@@ -10,6 +10,7 @@ public class Main {
 
 class Animal {
     String sound = "";
+    String sound1 = "";
 
     void makeSound() {
         System.out.println(sound);
@@ -19,5 +20,7 @@ class Animal {
 class Dog extends Animal {
     Dog() {
         sound = "bark";
+        sound1 = "burp";
+
     }
 }
