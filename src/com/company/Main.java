@@ -3,9 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.makeSound();
-        dog.action();
+     Dog dog = new Dog();
+        System.out.println(dog.toString());
     }
 }
 
@@ -24,8 +23,8 @@ class Animal {
 
 class Dog extends Animal {
     Dog() {
-        sound = "bark";
-        action = "jump";
-
+        sound = "barks";
     }
 }
+
+class DogFood {}
